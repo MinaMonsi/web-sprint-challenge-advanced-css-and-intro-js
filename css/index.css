@@ -205,14 +205,20 @@ button:hover {
   width: 100%;
 }
 
-
-
 @media (max-width: 800px) {
-    body {
-      background: white;
+  /* body {
+    background: white;
+  } */
+  @media (max-width: 500px) {
+    .artists-container {
+      flex-direction: column;
+      align-content: center;
     }
-  @media (max-width: 500px){
-    body {
-      background:white;
+    .title-container {
+      justify-content: center;
     }
-
+    /* body {
+      background: pink;
+    } */
+  }
+}
