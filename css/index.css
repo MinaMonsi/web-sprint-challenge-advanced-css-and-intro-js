@@ -217,9 +217,15 @@ button:hover {
 }
 
 @media (max-width: 800px) {
-  /* body {
-    background: white;
-  } */
+  .artists-container {
+    flex-direction: column;
+    justify-items: center;
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 500px) {
   @media (max-width: 500px) {
     .artists-container {
       flex-direction: column;
@@ -233,14 +239,8 @@ button:hover {
       text-align: center;
       width: 100%;
     }
-  
-
-    }
-    .title-container {
-      justify-content: center;
-    }
-    /* body {
-      background: pink;
-    } */
+  }
+  .title-container {
+    justify-content: center;
   }
 }
